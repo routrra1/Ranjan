@@ -1,3 +1,5 @@
+# Creating below two R Functions to support COURSERA course
+
 makeCacheMatrix <- function(x = matrix()) {
   ## @x: a square invertible matrix
   ## return: a list containing functions to
@@ -43,5 +45,4 @@ cacheSolve <- function(x, ...) {
   return(inv)
 }
 
-source("mmakeCacheMatrix.R")
-pmatrix <- makeCacheMatrix(matrix(1:16, nrow=4, ncol =4))
+# Note: Once you copy these function to R studio, It will run properly
